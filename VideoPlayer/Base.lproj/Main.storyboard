@@ -18,18 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Библиотека" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2o-jR-AuM">
+                                <rect key="frame" x="20" y="70" width="175.5" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FBh-NL-oFB">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="126" width="414" height="736"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="FBh-NL-oFB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4VJ-Lf-rou"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FBh-NL-oFB" secondAttribute="bottom" id="TkT-fP-1xW"/>
-                            <constraint firstItem="FBh-NL-oFB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="reu-0P-di1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FBh-NL-oFB" secondAttribute="trailing" id="wrd-Mr-1dg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FBh-NL-oFB" secondAttribute="bottom" id="3kt-CM-SlE"/>
+                            <constraint firstItem="p2o-jR-AuM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="7o6-Ks-N0V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="p2o-jR-AuM" secondAttribute="trailing" id="8Sp-uX-EbN"/>
+                            <constraint firstItem="FBh-NL-oFB" firstAttribute="top" secondItem="p2o-jR-AuM" secondAttribute="bottom" constant="20" id="9qj-BI-uHs"/>
+                            <constraint firstItem="FBh-NL-oFB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="B6A-nm-fAF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FBh-NL-oFB" secondAttribute="trailing" id="EvJ-0P-6U8"/>
+                            <constraint firstItem="p2o-jR-AuM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ULP-cS-eZW"/>
                         </constraints>
                     </view>
                     <connections>

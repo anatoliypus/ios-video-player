@@ -18,16 +18,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet private var videoList: UITableView!
     
     
-    
-    // MARK: - Public properties
-    
-    
-    
     // MARK: - Private Properties
     
     private let videos = [videoData(image: #imageLiteral(resourceName: "7285"), title: "My title 1"),
                           videoData(image: #imageLiteral(resourceName: "7285"), title: "My title 2"),
-                          videoData(image: #imageLiteral(resourceName: "7285"), title: "My title 3"),]
+                          videoData(image: #imageLiteral(resourceName: "7285"), title: "My title 3"),
+                          videoData(image: #imageLiteral(resourceName: "7285"), title: "My title 4"),
+                          videoData(image: #imageLiteral(resourceName: "7285"), title: "My title 5"),]
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
@@ -52,8 +49,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.setData(image: videos[indexPath.row].image, title: videos[indexPath.row].title)
         return cell
     }
-    
-    // MARK: - Private methods
 
 }
 

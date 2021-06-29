@@ -10,15 +10,15 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="228" id="KGk-i7-Jjw" customClass="VideoCell" customModule="VideoPlayer" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="435" height="228"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="254" id="KGk-i7-Jjw" customClass="VideoCell" customModule="VideoPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="435" height="254"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="435" height="228"/>
+                <rect key="frame" x="0.0" y="0.0" width="435" height="254"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSC-rw-T5w">
-                        <rect key="frame" x="10" y="197" width="94.5" height="21"/>
+                        <rect key="frame" x="10" y="202" width="94.5" height="32"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -29,8 +29,8 @@
                     </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="SSC-rw-T5w" firstAttribute="top" secondItem="d4R-GD-xio" secondAttribute="bottom" constant="10" id="W3B-Xg-7UR"/>
-                    <constraint firstAttribute="bottom" secondItem="SSC-rw-T5w" secondAttribute="bottom" constant="10" id="qsD-Qj-Dgj"/>
+                    <constraint firstItem="SSC-rw-T5w" firstAttribute="top" secondItem="d4R-GD-xio" secondAttribute="bottom" constant="15" id="W3B-Xg-7UR"/>
+                    <constraint firstAttribute="bottom" secondItem="SSC-rw-T5w" secondAttribute="bottom" constant="20" id="qsD-Qj-Dgj"/>
                     <constraint firstItem="SSC-rw-T5w" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="xca-IW-4BU"/>
                 </constraints>
             </tableViewCellContentView>
@@ -39,7 +39,7 @@
                 <outlet property="videoImage" destination="d4R-GD-xio" id="afS-zb-MqB"/>
                 <outlet property="videoTitle" destination="SSC-rw-T5w" id="6cS-8d-7VI"/>
             </connections>
-            <point key="canvasLocation" x="215.21739130434784" y="193.52678571428569"/>
+            <point key="canvasLocation" x="215.21739130434784" y="202.23214285714286"/>
         </tableViewCell>
     </objects>
     <resources>

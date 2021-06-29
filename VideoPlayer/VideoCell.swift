@@ -22,6 +22,9 @@ class VideoCell: UITableViewCell {
     
     // MARK: - Static properties
     static let identifier = "VideoCell"
+    static var nib: UINib {
+        UINib(nibName: String(describing: self), bundle: nil)
+    }
     
     //MARK: - Public methods
     func setData(image: UIImage, title: String) {
@@ -29,8 +32,4 @@ class VideoCell: UITableViewCell {
         videoTitle.text = title
     }
 
-    static var nib: UINib {
-        UINib(nibName: String(describing: self), bundle: nil)
-    }
-    
 }
